@@ -32,7 +32,7 @@ a.download = "fichier.txt";
 // Set the contents to be downloaded
 a.href = window.URL.createObjectURL(theBlob);
 // Anchor's text
-a.textContent = "Importer";
+a.textContent = "Download";
 
 // What's displayed as the URL of the anchor (when hovered, copied, etc.)
 a.dataset.downloadurl = [MIME_TYPE, a.download, a.href].join(":");
