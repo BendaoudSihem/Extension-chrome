@@ -1,7 +1,7 @@
 {
 	"manifest_version":2,
 	"name":"Titre WIKI",
-	"description":"Prenez le grand titre de la page wikipedia.",
+	"description":"Affichez le Titre de la page web actif dans un fichier .",
 	"version":"1.0",
 	"permissions": [ "tabs" ],
 	"content_scripts":[
